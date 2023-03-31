@@ -3,6 +3,7 @@ import rent
 import Return
 import events
 
+# This is the main file 
 messages.welcome()
 loop = True
 
@@ -12,7 +13,7 @@ while loop == True:
     select_option = False
     while select_option == False:
         try:
-            select = int(input("Enter an option: "))
+            select = int(input("Enter an option: ")) 
             select_option = True
         except:
             messages.invalid()

@@ -5,6 +5,7 @@ def read_file():
     file.close()
     return data
 
+# This function creates a dictionary
 def dictionary(file_contents):
     '''
         Function converts file's content into dictionary
